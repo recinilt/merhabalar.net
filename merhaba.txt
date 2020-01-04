@@ -1,5 +1,15 @@
+git gui
 rescan ile deðiþiklikler gözleniyor.
 bir dosyadaki deðiþiklikleri, deðiþiklikler, üzerine týkladýðýmýzda, sarý kutucukta görebiliyoruz. deðiþiklik olmayan bölümler normal siyah yazý ile, çýkarýlan satýrlar - ile, eklenen satýrlar + ile gösteriliyor.
 stage changed ile, tüm deðiþiklikleri indexe geçiþ bölgesine gönderiyoruz.
 açýkllama girip commit diyerek de yedekleme tamamlanýyor.
 deðiþikliklerden sadece birini indexe göndermek istiyorsan, sadece onun üzerine çift týkla.
+
+deðiþiklikleri geri almak.
+rescan ile, unstaged changes teki bir dosyaya týklayýnca, saðda sarý alanda deðiþiklikler görülüyor. 
+herhangi bir deðiþikliðe sað týklayýp;
+sadece o satýrdaki deðiþikliðin geri gelmesini istiyorsak, revert line demeli;
+tüm deðiþikliklerin geri dönmesi için ise revert hunk denmeli.
+revert hunk deyince, dosya, unstaged changesten kaybolur. çünkü dosya eski son yedekli haline dönmüþtür. dýþarýdan o dosyaya girip kontrol edilebilir. eskisi gibidir.
+
+
