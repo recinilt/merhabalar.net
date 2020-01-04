@@ -635,37 +635,7 @@
         Tüm hakları saklıdır. merhabalar.net 2019
     </footer>
 
-    <script>
-        function toggleactive(link, page) {
-            document.getElementById("myhomelink").classList.remove("active");
-            document.getElementById("myweblink").classList.remove("active");
-            document.getElementById("myytlink").classList.remove("active");
-            document.getElementById("mypatentlink").classList.remove("active");
-            document.getElementById("myarduinolink").classList.remove("active");
-            document.getElementById(link).classList.add("active");
-
-            document.getElementById("myhome").classList.add("d-none");
-            document.getElementById("myyt").classList.add("d-none");
-            document.getElementById("myweb").classList.add("d-none");
-            document.getElementById("mypatent").classList.add("d-none");
-            document.getElementById("myarduino").classList.add("d-none");
-            document.getElementById(page).classList.remove("d-none");
-
-            document.getElementById("basliklink").click();
-
-            if (link != "myytlink") {
-                stopinterv();
-                player.pauseVideo();
-            }
-        }
-
-        toggleactive("myarduinolink", "myarduino");
-
-        //document.getElementById("toggicon1").addEventListener("blur", function() { this.click(); }); 
-        //document.getElementById("toggicon2").addEventListener("focusout", function() { this.click(); });
-        //dışarıdan fonk ismi de yazabilirdik, parantez koymadan.
-
-    </script>
+    
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -674,7 +644,37 @@
     <script src="js/fulljs.js"></script>
     <script>
     </script>
+<script>
+    function toggleactive(link, page) {
+        document.getElementById("myhomelink").classList.remove("active");
+        document.getElementById("myweblink").classList.remove("active");
+        document.getElementById("myytlink").classList.remove("active");
+        document.getElementById("mypatentlink").classList.remove("active");
+        document.getElementById("myarduinolink").classList.remove("active");
+        document.getElementById(link).classList.add("active");
 
+        document.getElementById("myhome").classList.add("d-none");
+        document.getElementById("myyt").classList.add("d-none");
+        document.getElementById("myweb").classList.add("d-none");
+        document.getElementById("mypatent").classList.add("d-none");
+        document.getElementById("myarduino").classList.add("d-none");
+        document.getElementById(page).classList.remove("d-none");
+
+        document.getElementById("basliklink").click();
+
+        if (link != "myytlink") {
+            stopinterv();
+            player.pauseVideo();
+        }
+    }
+
+    toggleactive("myarduinolink", "myarduino");
+
+    //document.getElementById("toggicon1").addEventListener("blur", function() { this.click(); }); 
+    //document.getElementById("toggicon2").addEventListener("focusout", function() { this.click(); });
+    //dışarıdan fonk ismi de yazabilirdik, parantez koymadan.
+
+</script>
 
 
 </body>
