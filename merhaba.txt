@@ -1,1 +1,3 @@
-mermer
+rescan ile deðiþiklikler gözleniyor.
+stage changed ile indexe geçiþ bölgesine gönderiyoruz.
+açýkllama girip commit diyerek de yedekleme tamamlanýyor.
