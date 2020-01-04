@@ -52,6 +52,10 @@ sonra, remote, fetch from, nickname ile o adresteki deðiþiklikler getiriliyor.
 sonra da merge, local merge, deðiþikliðe týklanarak yerele kaydediliyor.
 
 
+yan dallara geçiþte, klasördeki dosyalar da deðiþir.
+klasöre yeni dosya eklendiðinde, hangi dalda commit yapýlýrsa ona eklenir, diðerlerinde görülmez.
+bir dalda bir deðiþiklik yapýldýðýnda, diðer dalda merge baþlýðýnda local merge denildiðinde, diðer dalda yapýlan deðiþiklik görülür. merge ile bu dala o deðiþiklik kaydedilebilir.
+
 
 
 
