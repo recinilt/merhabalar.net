@@ -15,5 +15,14 @@ tüm deðiþikliklerin geri dönmesi için ise revert hunk denmeli.
 revert hunk deyince, dosya, unstaged changesten kaybolur. çünkü dosya eski son yedekli haline dönmüþtür. dýþarýdan o dosyaya girip kontrol edilebilir. eskisi gibidir.
 bir dosya silinirse, silineni geri getirmek için, rescana basarýz, o dosyayý unstaged changeste görürürüz, commit baþlýðýndaki revert changes ctrl j ile o dosyayý geri getiririz. son kayda ulaþmýþ oluruz.
 
+eski bir sürüme dönmek için, 
+repository baþlýðýndan,
+visualize masters history yi týklayýp;
+bir versiyondaki deðiþikliðin geri alýnmasý için, o versiyona sað týklayýp, en alttaki revert this commit e týklýyoruz.
+eðer ki eski bir sürüme tamamen geçmek istiyorsak, o versiyona sað týklayýp, 
+reset master branch to here deyip, hard reset diyoruz.
+
+
+
 
 
