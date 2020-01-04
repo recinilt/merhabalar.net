@@ -1,3 +1,5 @@
 rescan ile deðiþiklikler gözleniyor.
-stage changed ile indexe geçiþ bölgesine gönderiyoruz.
+bir dosyadaki deðiþiklikleri, deðiþiklikler, üzerine týkladýðýmýzda, sarý kutucukta görebiliyoruz. deðiþiklik olmayan bölümler normal siyah yazý ile, çýkarýlan satýrlar - ile, eklenen satýrlar + ile gösteriliyor.
+stage changed ile, tüm deðiþiklikleri indexe geçiþ bölgesine gönderiyoruz.
 açýkllama girip commit diyerek de yedekleme tamamlanýyor.
+deðiþikliklerden sadece birini indexe göndermek istiyorsan, sadece onun üzerine çift týkla.
