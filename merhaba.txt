@@ -34,6 +34,18 @@ arbitary locationa bu adresi yapýþtýrýp,
 force owerrite a týklayýp,
 push a týklayýnca, github giriþ bilgilerini ister, bunu girersin, ve de gönderir.
 oradakilerin üzerine yazar.
+sayfayý yenilediðinde deðiþiklikleri görürsün.
+
+.gitignore
+diye bir dosya oluþtur. bunu, visual studio code da yeni dosya oluþtur diye de yapabilirsin.
+bu dosyayý aç.
+içine, hangi dosyalarýn veya klasörlerin takip edilmemesini istiyorsan yaz.
+mesela,þunlarý dersek, gizli / klasöründeki * herþey, ama ! yen.txt dýþýndaki. ondaki deðiþiklikler takip edilsin.
+gizli/*
+
+!gizli/yen.txt
+
+
 
 
 
