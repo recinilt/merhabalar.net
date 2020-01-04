@@ -22,6 +22,19 @@ bir versiyondaki deðiþikliðin geri alýnmasý için, o versiyona sað týklayýp, en a
 eðer ki eski bir sürüme tamamen geçmek istiyorsak, o versiyona sað týklayýp, 
 reset master branch to here deyip, hard reset diyoruz.
 
+projeyi githuba göndermek için,
+github da new repository oluþturuluyor.
+oluþturulan repository saðýndaki clone or download a týklayýnca, oranýn adresi çýkýyor.
+mesela 
+https://github.com/recinilt/merhabalar.net.git
+bu adresi kopyalayýp,
+git gui programýnda remote baþlýðýna týklayýp,
+push týklayýp
+arbitary locationa bu adresi yapýþtýrýp,
+force owerrite a týklayýp,
+push a týklayýnca, github giriþ bilgilerini ister, bunu girersin, ve de gönderir.
+oradakilerin üzerine yazar.
+
 
 
 
