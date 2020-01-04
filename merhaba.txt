@@ -56,7 +56,23 @@ yan dallara geçiþte, klasördeki dosyalar da deðiþir.
 klasöre yeni dosya eklendiðinde, hangi dalda commit yapýlýrsa ona eklenir, diðerlerinde görülmez.
 bir dalda bir deðiþiklik yapýldýðýnda, diðer dalda merge baþlýðýnda local merge denildiðinde, diðer dalda yapýlan deðiþiklik görülür. merge ile bu dala o deðiþiklik kaydedilebilir.
 
+githubda,
+watching dersek, o projede yapýlan bir committe ileti alýrsýn.
+star ile, favorilerine eklersin.
+fork ile, bu projenin bir kopyasýný hesabýna alýrsýn.
+anasayfada, defter ile görülenler kendi yaptýklarým. çatallý görünenler de baþkalarýndan aldýklarým
 
+bir problemi beraberce çözebilmek için, 
+proje code baþlýðýnýn yanýndaki issue baþlýðýna týklayýp, new issue deyip
+title mesela "ana sayfaya resim eklenmeli"
+write a da açýklama, "anasayfa.html ye resim eklenmeli vb. detaylar.
+saðdaki labels e týklayýp issuenin tipi kýrmýzý sarý vb iþaretlenir.
+açýk issueler open da, kapalýlar close da görülür.
+
+github da çok popüler projeleri, awesome-istediðinþey ile aratabilirsin
+awesome-javascript
+
+gitlab.com da aynýdýr.
 
 
 
