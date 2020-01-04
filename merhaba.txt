@@ -46,6 +46,12 @@ gizli/*
 !gizli/yen.txt
 
 
+githubdan projeyi veya deðiþikliði getirmek için,
+remote baþlýðýnda, add ile, bir github adresi ve nicknamesi veriliyor.
+sonra, remote, fetch from, nickname ile o adresteki deðiþiklikler getiriliyor.
+sonra da merge, local merge, deðiþikliðe týklanarak yerele kaydediliyor.
+
+
 
 
 
